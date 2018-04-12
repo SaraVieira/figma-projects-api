@@ -1,4 +1,4 @@
-import { GET_COMMENTS } from './queries/'
+import GET_COMMENTS from './queries/GET_COMMENTS'
 import { client } from './'
 import { fixComments } from './utils.js'
 
