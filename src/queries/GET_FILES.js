@@ -1,4 +1,4 @@
-import { gql } from "apollo-boost";
+import { gql } from 'apollo-boost'
 
 export const GET_FILES = gql`
   query projectFiles($project: String!) {
@@ -8,7 +8,7 @@ export const GET_FILES = gql`
       thumbnail_url
     }
   }
-`;
+`
 
 export const GET_PROJECT = gql`
   {
@@ -17,4 +17,4 @@ export const GET_PROJECT = gql`
       name
     }
   }
-`;
+`

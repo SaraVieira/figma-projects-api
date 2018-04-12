@@ -1,4 +1,4 @@
-import { gql } from "apollo-boost";
+import { gql } from 'apollo-boost'
 
 export default gql`
   query getComments($id: String!) {
@@ -13,4 +13,4 @@ export default gql`
       parent_id
     }
   }
-`;
+`

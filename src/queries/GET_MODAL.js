@@ -1,4 +1,4 @@
-import { gql } from "apollo-boost";
+import { gql } from 'apollo-boost'
 
 export default gql`
   {
@@ -7,4 +7,4 @@ export default gql`
       shownFile
     }
   }
-`;
+`

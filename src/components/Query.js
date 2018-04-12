@@ -1,6 +1,6 @@
-import React from "react";
-import { Query } from "react-apollo";
-import "./loading.css";
+import React from 'react'
+import { Query } from 'react-apollo'
+import './loading.css'
 
 export default ({ children, ...props }) => (
   <Query {...props}>
@@ -13,9 +13,9 @@ export default ({ children, ...props }) => (
             <div />
             <div />
           </div>
-        );
-      if (error) return `Error!: ${error}`;
-      return children(data);
+        )
+      if (error) return `Error!: ${error}`
+      return children(data)
     }}
   </Query>
-);
+)

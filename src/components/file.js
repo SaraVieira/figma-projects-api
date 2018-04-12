@@ -1,6 +1,6 @@
-import React from "react";
-import { Mutation } from "react-apollo";
-import { OPEN_MODAL } from "../queries/";
+import React from 'react'
+import { Mutation } from 'react-apollo'
+import { OPEN_MODAL } from '../queries/'
 
 export default ({ name, id, thumbnail_url }) => (
   <div key={id} className="fl w-50 w-25-m w-20-l pa2">
@@ -20,4 +20,4 @@ export default ({ name, id, thumbnail_url }) => (
       )}
     </Mutation>
   </div>
-);
+)

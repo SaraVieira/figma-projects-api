@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-import { Query, Comment } from "./";
-import { GET_COMMENTS } from "../queries/";
+import { Query, Comment } from './'
+import { GET_COMMENTS } from '../queries/'
 
 export default ({ shownFile }) => (
   <ul className="list pl0 mt0 measure center">
@@ -15,4 +15,4 @@ export default ({ shownFile }) => (
       }
     </Query>
   </ul>
-);
+)

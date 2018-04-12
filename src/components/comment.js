@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Comment = ({ user: { img_url, handle }, id, message, children = [] }) => (
   <li key={id}>
@@ -15,6 +15,6 @@ const Comment = ({ user: { img_url, handle }, id, message, children = [] }) => (
       ) : null}
     </div>
   </li>
-);
+)
 
-export default Comment;
+export default Comment

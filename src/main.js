@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
-import Modal from "react-modal";
-import { Mutation } from "react-apollo";
+import React, { Fragment } from 'react'
+import Modal from 'react-modal'
+import { Mutation } from 'react-apollo'
 
-import { Query, Project, Comments } from "./components/";
-import { GET_MODAL, CLOSE_MODAL, GET_PROJECT } from "./queries/";
+import { Query, Project, Comments } from './components/'
+import { GET_MODAL, CLOSE_MODAL, GET_PROJECT } from './queries/'
 
 export default () => (
   <div className="w-80 center">
@@ -22,4 +22,4 @@ export default () => (
       )}
     </Query>
   </div>
-);
+)

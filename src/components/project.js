@@ -1,7 +1,7 @@
-import React from "react";
-import { GET_FILES } from "../queries/";
+import React from 'react'
+import { GET_FILES } from '../queries/'
 
-import { File, Query } from "./";
+import { File, Query } from './'
 
 export default ({ id, name }) => (
   <div key={id} className="avenir">
@@ -15,4 +15,4 @@ export default ({ id, name }) => (
       </Query>
     </div>
   </div>
-);
+)
